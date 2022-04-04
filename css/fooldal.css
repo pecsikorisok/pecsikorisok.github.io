@@ -1,0 +1,243 @@
+/*
+
+Betűtípus / Fontstyles: 
+
+MonogramsToolbox.ttf
+aramis.ttf
+
+
+
+Források / Sources: 
+
+https://fonts2u.com/
+https://ifonts.xyz/
+https://fontzone.net/
+https://www.azfonts.net/
+
+*/
+
+
+body {
+    background-color: rgb(65, 56, 56);
+    font-family: "cim";
+
+    background-image: url(/kepek/404\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+
+@font-face {
+    font-family: "cim";
+    src: url(../font-style/LobsterTwo-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "alcim";
+    src: url(/font-style/aramis.ttf);
+}
+
+
+.cim {
+    font-family: "alcim";
+    text-align: center;
+    color: rgb(255, 238, 0);
+    font-size: 45px;
+
+
+    border: 5px solid black;
+ 
+    border-color: rgb(255, 238, 0);
+    background-color: rgba(0, 0, 0, 1);
+
+
+    padding: 0px;
+
+}
+
+
+#terkep {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+
+#terkep-cim {
+    text-align: left;
+    color: rgb(255, 238, 0);
+    font-size: 30px;
+
+}
+
+
+.alcim {
+    text-align: left;
+    color: rgb(255, 238, 0);
+    font-size: 30px;
+
+}
+
+
+.alcim-p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 10px;
+    color: #444;
+}
+  
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+    
+}
+
+
+
+/*
+
+
+        TÉRKÉP
+
+    border: 5px solid black;
+    border-radius: 150px;
+    border-color: rgb(255, 238, 0);
+    background-color: rgba(0, 0, 0, 1);
+    
+
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    float: right;
+    text-align: right;
+
+
+
+.dropdowns {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+    margin-top: 50px;
+    margin-bottom: 200px;
+
+
+}
+
+
+.dropdown {
+    background-color: none;
+    color: none;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+
+
+
+}
+
+
+.drop-button {
+    text-align: center;
+    align-content: center;
+    color: rgb(255, 238, 0);
+    font-size: 30px;
+
+    border: 5px solid black;
+    border-radius: 150px;
+    border-color: rgb(255, 238, 0);
+    background-color: rgba(0, 0, 0, 1);
+
+    padding: 10px;
+    
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 5px;
+
+    width: 130px
+
+}
+
+
+.dropdown-content p{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+    float: center;
+
+}
+
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+    float: center;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .drop-button {
+    background-color: black;
+}
+
+
+.dropdown-content p:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+
+}
+
+*/
